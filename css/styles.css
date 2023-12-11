@@ -10,6 +10,21 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ .square-image {
+  width: 500px; /* Defina a largura desejada */
+  height: 500px; /* Defina a altura desejada */
+  object-fit: cover; /* Isso mantém a proporção da imagem e a ajusta para preencher o contêiner */
+}
+
+ .text-white{
+  font-size: 25px;
+}
+
+.title-white{
+  font-size: 50px;
+  color: white;
+}
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
